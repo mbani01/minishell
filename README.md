@@ -32,9 +32,6 @@ A few of the functions are "built-in", meaning we don't call the executable, we 
 - **getcwd** = [Saves the pathname of your current working directory in a string.](https://man7.org/linux/man-pages/man2/getcwd.2.html)
 - **chdir** = [Changes your current working directory.](https://man7.org/linux/man-pages/man2/chdir.2.html)
 - **stat, lstat, fstat** = [Returns information about a file.](https://man7.org/linux/man-pages/man2/stat.2.html)
-  - stat = Standar.
-  - lstat = For symbolic links.
-  - fstat = Gets the file from a file descriptor.
 - **execve** = [Executes a program referred by a variable.](https://man7.org/linux/man-pages/man2/execve.2.html)
 - **dup** = [Creates a copy of a file descriptor using the lowest numbereded unused descriptor.](https://man7.org/linux/man-pages/man2/dup.2.html)
 - **dup2** = [Creates a copy of a file descriptor using the descriptor number given by the user.](https://man7.org/linux/man-pages/man2/dup.2.html)
